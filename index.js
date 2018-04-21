@@ -28,7 +28,7 @@ const StitchProductFetcher = (() => {
         ? mockStitchResponses[currentPage]
         : null;
       currentPage += 1;
-      data.page_name = currentPage;
+      data.page_num = currentPage;
       let response;
       try {
         response = await priv.postData(
