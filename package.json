@@ -1,6 +1,6 @@
 {
   "name": "fetch-stitch-products",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fetch a simplified list of products from stitchlabs.com.",
   "main": "index.js",
   "scripts": {
