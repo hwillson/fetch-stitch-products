@@ -55,6 +55,7 @@ describe('StitchProductFetcher', function () {
         available: i,
         total_sold: i,
         average_cost: i,
+        updated_at: '2015-12-30T19:51:40+00:00',
         links: {
           Products: [{
             id: `id${i}`,
@@ -88,6 +89,7 @@ describe('StitchProductFetcher', function () {
         availableStock: +variant.available,
         totalSold: +variant.total_sold,
         averageCost: +variant.average_cost,
+        lastUpdated: new Date(variant.updated_at),
       };
 
       fetcher.init('abc123');

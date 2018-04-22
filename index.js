@@ -117,6 +117,7 @@ const StitchProductFetcher = (() => {
         availableStock: +variant.available,
         totalSold: +variant.total_sold,
         averageCost: +variant.average_cost,
+        lastUpdated: new Date(variant.updated_at),
       }));
     }
     return products;
